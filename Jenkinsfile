@@ -11,5 +11,20 @@ pipeline{
         sh "touch ~/jenkins-tutorial-test/file1"
       }
     }
+    stage("prod stage"){
+      steps{
+        sh "touch ~/jenkins-tutorial-test/prodfile"
+      }
+    }
+    stage("test stage"){
+      steps{
+        sh "touch ~/jenkins-tutorial-test/testfile"
+      }
+    }  
+    stage("demo stage"){
+      steps{
+        sh "touch ~/jenkins-tutorial-test/demofile"
+      }
+    }
   }
 }
