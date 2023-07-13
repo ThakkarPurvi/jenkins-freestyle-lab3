@@ -1,1 +1,1 @@
-# jenkins-freestyle-lab3
+# jenkins-pipeline-lab3
